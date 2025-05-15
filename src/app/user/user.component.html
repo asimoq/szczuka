@@ -1,0 +1,8 @@
+<h1>Szczuka Bendegúz</h1>
+<div class="input-group">
+    <input type="text" [(ngModel)]="newAge">
+    <button class="btn" (click)="addAge()" >Add number</button>
+</div>
+<div class="output-field">
+    <p [ngClass]="userClass(user)" *ngFor="let user of users">{{user.name}} - {{user.age}}</p>
+</div>
