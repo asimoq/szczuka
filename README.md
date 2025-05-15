@@ -1,3 +1,45 @@
+# Angular Zárthelyi Feladat – Frontend Fejlesztés Kurzus
+
+Ez a projekt a Frontend fejlesztés kurzus 2. zárthelyi dolgozatának megoldását tartalmazza. A feladatsort emlékezetből rekonstruáltam, és a következő pontok mentén valósítottam meg:
+
+## Feladatleírás
+
+1. **User komponens létrehozása és megjelenítése**
+   - Hozzon létre egy `User` komponenst.
+   - Ezt jelenítse meg az `AppModule`-ban.
+   - A komponens tetején szerepeljen egy `<h1>` címke a felhasználó teljes nevével.
+
+2. **DataService és User osztály létrehozása**
+   - Készítsen egy `DataService` nevű szolgáltatást.
+   - Hozzon létre egy `User` osztályt, amely tartalmaz egy `name` és egy `age` mezőt.
+   - A `DataService`-ben hozzon létre egy `User` típusú tömböt, és töltse fel néhány kezdeti (seed) adattal.
+
+3. **Adatszolgáltatás felhasználása a komponensben**
+   - A `User` komponensben használja fel a `DataService`-t dependency injection segítségével.
+   - A komponens jelenítse meg a felhasználókat `<p>` tagekben a következő formátumban: `username - age`.
+
+4. **Interaktív input és gomb hozzáadása**
+   - A `User` komponens tetején szerepeljen egy szövegbevitel (text input) és egy `Hozzáadás` gomb.
+
+5. **Felhasználók korának módosítása**
+   - A `Hozzáadás` gombra kattintva növelje meg az összes felhasználó életkorát a beírt értékkel.
+
+---
+
+## Megjegyzés
+
+Ez a megoldás az oktatási célokat szolgálja, és az Angular alapvető funkcióinak (komponens, szolgáltatás, osztály, adatbinding, eseménykezelés, dependency injection) gyakorlására készült.
+
+
+
+
+
+
+
+
+
+
+
 # Szczuka
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
